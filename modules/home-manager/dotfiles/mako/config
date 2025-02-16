@@ -1,0 +1,11 @@
+font=JetBrainsMono 10
+width=300
+height=100
+anchor=top-right
+background-color=#1E1E2E
+text-color=#CDD6F4
+border-size=2
+border-color=#89B4FA
+default-timeout=1000
+ignore-timeout=0
+max-history=1
