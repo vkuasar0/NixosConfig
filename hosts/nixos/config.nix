@@ -287,6 +287,7 @@ in
     gnumake
     flutter
     android-studio
+    unityhub
   ];
 
   fonts = {
