@@ -28,6 +28,13 @@
     [ { device = "/dev/disk/by-uuid/3ca2d691-18c0-4cd5-9176-1bccb2664ae9"; }
     ];
 
+  # Windows ESP
+  fileSystems."/boot2" = 
+    { device = "/dev/disk/by-uuid/10F9-6872";
+      fsType = "vfat";
+      options = [ "defaults" ];
+    };
+
   # Enables DHCP on each ethernet and wireless interface. In case of scripted networking
   # (the default) this is the recommended approach. When using systemd-networkd it's
   # still possible to use this option, but it's recommended to use it in conjunction
